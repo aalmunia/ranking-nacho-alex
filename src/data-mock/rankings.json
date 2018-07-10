@@ -1,0 +1,146 @@
+{
+  "projects": [
+    {
+      "name": "Proyecto de prueba",
+      "key": "Proj001",
+      "completed": false,
+      "drivers": [
+        {
+          "name": "Primer driver",
+          "key": "DOM01_DRIV01",
+          "selectedValue": 2,
+          "options": [
+            {
+              "name": "Muy bien",
+              "key": 1
+            },
+            {
+              "name": "No tan bien",
+              "key": 2
+            },
+            {
+              "name": "Normalillo",
+              "key": 3
+            }
+          ]
+        },
+        {
+          "name": "Segundo driver de pruebas",
+          "key": "DOM01_DRIV02",
+          "selectedValue": "RELATIVO",
+          "values": [
+            {
+              "text": "Inconsistente",
+              "value": "INCONSISTENTE"
+            },
+            {
+              "text": "Relativo",
+              "value": "RELATIVO"
+            },
+            {
+              "text": "Pasable",
+              "value": "PASABLE"
+            },
+            {
+              "text": "Robusto",
+              "value": "ROBUSTO"
+            },
+            {
+              "text": "Irrompible",
+              "value": "IRROMPIBLE"
+            }
+          ]
+        },
+        {
+          "name": "Tercer driver de pruebas",
+          "key": "DOM01_DRIV03",
+          "selectedValue": 100,
+          "values": [
+            {
+              "text": "Gran pedigrí :-O",
+              "value": 100
+            },
+            {
+              "text": "Nobleza de sangre :-D",
+              "value": 85
+            },
+            {
+              "text": "Alta clase :-)",
+              "value": 70
+            },
+            {
+              "text": "Mediocre :-|",
+              "value": 50
+            },
+            {
+              "text": "Mezclado",
+              "value": 35
+            },
+            {
+              "text": "Muy mezclado",
+              "value": 20
+            },
+            {
+              "text": "El Almunia",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "name": "Cuatro driver de pruebas",
+          "key": "DOM01_DRIV04",
+          "selectedValue": "",
+          "values": [
+            {
+              "text": "Clásico donde los haya",
+              "value": 7
+            },
+            {
+              "text": "Muy buena",
+              "value": 6
+            },
+            {
+              "text": "Interesante",
+              "value": 5
+            },
+            {
+              "text": "Se deja ver",
+              "value": 4
+            },
+            {
+              "text": "Para un rato...",
+              "value": 3
+            },
+            {
+              "text": "Un poco tostonazo",
+              "value": 2
+            },
+            {
+              "text": "Matadme",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "How high the moon?",
+          "key": "DOM01_DRIV05",
+          "selectedValue": "VERY_FAR_AWAY",
+          "values": [
+            {
+              "text": "A tomar por...",
+              "value": "VERY_FAR_AWAY"
+            },
+            {
+              "text": "Cerquita",
+              "value": "CLOSE_BY"
+            },
+            {
+              "text": "Aqui mismo",
+              "value": "RIGHT_HERE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

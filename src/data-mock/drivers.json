@@ -1,0 +1,82 @@
+{
+  "drivers": [
+    {
+      "name": "Primer driver de pruebas",
+      "key": "DOM01_DRIV01",
+      "values": [
+        {
+          "text": "Muy buen valor",
+          "value": 1
+        },
+        {
+          "text": "Buen valor",
+          "value": 2
+        },
+        {
+          "text": "Valor normal",
+          "value": 3
+        },
+        {
+          "text": "Mal valor",
+          "value": 4
+        },
+        {
+          "text": "Muy mal valor",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Segundo driver de pruebas",
+      "key": "DOM01_DRIV02",
+      "values": [
+        {
+          "text": "Inconsistente",
+          "value": "INCONSISTENTE"
+        },
+        {
+          "text": "Relativo",
+          "value": "RELATIVO"
+        },
+        {
+          "text": "Pasable",
+          "value": "PASABLE"
+        },
+        {
+          "text": "Robusto",
+          "value": "ROBUSTO"
+        },
+        {
+          "text": "Irrompible",
+          "value": "IRROMPIBLE"
+        }
+      ]
+    },
+    {
+      "name": "Tercer driver de pruebas",
+      "key": "DOM01_DRIV03",
+      "values": [
+        {
+          "text": "Muy caliente",
+          "value": "VERY_HOT"
+        },
+        {
+          "text": "Caliente",
+          "value": "HOT"
+        },
+        {
+          "text": "Templado",
+          "value": "TEMPERATE"
+        },
+        {
+          "text": "Frío",
+          "value": "COLD"
+        },
+        {
+          "text": "Muy frío",
+          "value": "VERY_COLD"
+        }
+      ]
+    }
+  ]
+}

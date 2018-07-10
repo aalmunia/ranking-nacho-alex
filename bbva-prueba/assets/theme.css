@@ -1,0 +1,74 @@
+/*
+ *  This theme is based on https://ui.bbvaexperience.com/web_basic/colors/
+ */
+
+:root {
+  --header-height: 100px;
+  --subheader-height: 75px;
+  --filters-height: 50px;
+  --primary-color: var(--bbva-core-blue);
+  --secondary-color: var(--bbva-medium-blue);
+  --tertiary-color: var(--bbva-navy);
+  --accent-color: var(--bbva-aqua);
+  --spacing-unit: 2rem;
+  --spacing-unit-m: 1rem;
+  --spacing-unit-s: 0.75rem;
+  --body-font: 'Benton Sans BBVA';
+  --bold-font: 'Benton Sans BBVA Bold';
+  --box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  --transition: 0.25s ease;
+  --transition-long: 1s ease;
+  --default-size: 8px;
+  --column-size: calc(100% / 12);
+  --small-text: 12px;
+  --extra-info-notification: var(--bbva-sky-blue);
+  --success-notification: var(--bbva-green);
+  --error-notification: var(--bbva-coral);
+  --promotion-notification: var(--bbva-aqua);
+  --important-notification: var(--bbva-sand);
+  --default-notification: var(--bbva-400);
+  --bbva-100: #f4f4f4;
+  --bbva-200: #e9e9e9;
+  --bbva-300: #d3d3d3;
+  --bbva-400: #bdbdbd;
+  --bbva-500: #666666;
+  --bbva-600: #121212;
+  --bbva-core-blue: #004481;
+  --bbva-navy: #072146;
+  --bbva-core-dark-blue: #043263;
+  --bbva-core-light-blue: #1464a5;
+  --bbva-medium-blue: #1973b8;
+  --bbva-medium-light-blue: #49a5e6;
+  --bbva-sky-blue: #5bbeff;
+  --bbva-sky-blue-40: rgba(91, 190, 255, 0.4);
+  --bbva-sky-light-blue: #d4edfc;
+  --bbva-sky-light-blue-20: rgba(212, 237, 252, 0.2);
+  --bbva-sky-light-blue-50: rgba(212, 237, 252, 0.5);
+  --bbva-white: #ffffff;
+  --bbva-aqua: #2dcccd;
+  --bbva-aqua-dark: #028484;
+  --bbva-aqua-medium: #02a5a5;
+  --bbva-aqua-light: #5ac4c4;
+  --bbva-aqua-white: #eaf9fa;
+  --bbva-green: #48ae64;
+  --bbva-green-dark: #277a3e;
+  --bbva-green-medium: #388d4f;
+  --bbva-green-light: #88ca9a;
+  --bbva-green-white: #d9efe0;
+  --bbva-red: #da3851;
+  --bbva-red-dark: #b92a45;
+  --bbva-red-medium: #c0475e;
+  --bbva-red-light: #e77d8e;
+  --bbva-red-white: #f4c3ca;
+  --bbva-sand: #d8be75;
+  --bbva-sand-dark: #8e7022;
+  --bbva-sand-medium: #b79e5e;
+  --bbva-sand-light: #e6d5a5;
+  --bbva-sand-white: #f3ebd5;
+  --bbva-sand-white-30: #fbf9f2;
+  --bbva-coral: #f35e61;
+  --bbva-coral-dark: #cb353a;
+  --bbva-coral-medium: #d44b50;
+  --bbva-coral-light: #f59799;
+  --bbva-coral-white: #fcdfdf;
+}

@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--bbva-white);
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.8;
+  font-weight: 300;
+  color: var(--bbva-600);
+  background-color: var(--bbva-white);
+}
+
+.container {
+  padding: 0 calc(var(--default-size) * 2);
+  margin: 0 auto;
+  max-width: 1176px;
+}
+
+h4 {
+  font-size: 1.73em;
+}
+
+h6 {
+  font-size: 1.33em;
+}
+
+.simple-button {
+  background: none;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.form-item-icon:before {
+  color: var(--bbva-medium-blue) !important;
+}
+
+@font-face {
+  font-family: 'Benton Sans BBVA';
+  src: url('fonts/BentonSansBBVA-Book.eot');
+  src: url('fonts/BentonSansBBVA-Book.woff') format('woff'), url('fonts/BentonSansBBVA-Book.woff2') format('woff2'), url('fonts/BentonSansBBVA-Book.svg#filename') format('svg');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Benton Sans BBVA';
+  src: url('fonts/BentonSansBBVA-Medium.eot');
+  src: url('fonts/BentonSansBBVA-Medium.woff') format('woff'), url('fonts/BentonSansBBVA-Medium.woff2') format('woff2'), url('fonts/BentonSansBBVA-Medium.svg#filename') format('svg');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Benton Sans BBVA';
+  src: url('fonts/BentonSansBBVA-Medium.eot');
+  src: url('fonts/BentonSansBBVA-Medium.woff') format('woff'), url('fonts/BentonSansBBVA-Medium.woff2') format('woff2'), url('fonts/BentonSansBBVA-Medium.svg#filename') format('svg');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Benton Sans BBVA Bold';
+  src: url('fonts/BentonSansBBVA-Book.eot');
+  src: url('fonts/BentonSansBBVA-Book.woff') format('woff'), url('fonts/BentonSansBBVA-Book.woff2') format('woff2'), url('fonts/BentonSansBBVA-Book.svg#filename') format('svg');
+}
+
+.full-width {
+  grid-column: span 3;
+}
+
+.dual-element {
+  --grid-gap: calc(var(--default-size) * 3);
+  --half-grid-space: calc(var(--grid-gap) / 2);
+  --half-column: calc(50% - var(--half-grid-space));
+  display: grid;
+  grid-template-columns: var(--half-column) var(--half-column);
+  grid-gap: var(--grid-gap);
+}
